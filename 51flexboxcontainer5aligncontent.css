@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    height: 550px; 
+    width: 550px;
+    border: 3px solid;
+    margin: 20px;
+    padding: 10px;
+    background-color:gainsboro;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+h1{
+    margin-left: 220px;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    border: 3px solid;
+    margin: 5px;
+}
+
+#box1{background-color: aqua;}
+#box2{background-color: blueviolet;}
+#box3{background-color: yellow;}
+#box4{background-color: tomato;}
+#box5{background-color: deeppink;}
+#box6{background-color: blanchedalmond;}
+#box7{background-color:lawngreen;}
